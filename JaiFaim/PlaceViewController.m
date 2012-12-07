@@ -6,13 +6,13 @@
 //  Copyright (c) 2012 Mathieu Darse. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "PlaceViewController.h"
 
-@interface DetailViewController ()
+@interface PlaceViewController ()
 - (void)configureView;
 @end
 
-@implementation DetailViewController
+@implementation PlaceViewController
 
 #pragma mark - Managing the detail item
 

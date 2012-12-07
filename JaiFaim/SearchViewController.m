@@ -6,16 +6,16 @@
 //  Copyright (c) 2012 Mathieu Darse. All rights reserved.
 //
 
-#import "MasterViewController.h"
+#import "SearchViewController.h"
 
-#import "DetailViewController.h"
+#import "PlaceViewController.h"
 
-@interface MasterViewController () {
+@interface SearchViewController () {
     NSMutableArray *_objects;
 }
 @end
 
-@implementation MasterViewController
+@implementation SearchViewController
 
 - (void)awakeFromNib
 {

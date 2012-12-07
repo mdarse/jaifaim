@@ -17,12 +17,12 @@
 		CD44404E16720362008CF1F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD44404D16720362008CF1F0 /* Default@2x.png */; };
 		CD44405016720362008CF1F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD44404F16720362008CF1F0 /* Default-568h@2x.png */; };
 		CD44405316720362008CF1F0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD44405116720362008CF1F0 /* MainStoryboard.storyboard */; };
-		CD44405616720362008CF1F0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44405516720362008CF1F0 /* MasterViewController.m */; };
-		CD44405916720362008CF1F0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44405816720362008CF1F0 /* DetailViewController.m */; };
+		CD44405616720362008CF1F0 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44405516720362008CF1F0 /* SearchViewController.m */; };
+		CD44405916720362008CF1F0 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44405816720362008CF1F0 /* PlaceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD44403516720362008CF1F0 /* JaiFaim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaiFaim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD44403516720362008CF1F0 /* J'ai Faim !.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "J'ai Faim !.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD44403916720362008CF1F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD44403B16720362008CF1F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD44403D16720362008CF1F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -34,10 +34,10 @@
 		CD44404B16720362008CF1F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CD44404D16720362008CF1F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CD44404F16720362008CF1F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CD44405416720362008CF1F0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CD44405516720362008CF1F0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CD44405716720362008CF1F0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CD44405816720362008CF1F0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CD44405416720362008CF1F0 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		CD44405516720362008CF1F0 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		CD44405716720362008CF1F0 /* PlaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		CD44405816720362008CF1F0 /* PlaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
 		CD59CF561672337300856AA5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CD59CF571672337300856AA5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +68,7 @@
 		CD44403616720362008CF1F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD44403516720362008CF1F0 /* JaiFaim.app */,
+				CD44403516720362008CF1F0 /* J'ai Faim !.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,10 +89,10 @@
 				CD44404816720362008CF1F0 /* AppDelegate.h */,
 				CD44404916720362008CF1F0 /* AppDelegate.m */,
 				CD44405116720362008CF1F0 /* MainStoryboard.storyboard */,
-				CD44405416720362008CF1F0 /* MasterViewController.h */,
-				CD44405516720362008CF1F0 /* MasterViewController.m */,
-				CD44405716720362008CF1F0 /* DetailViewController.h */,
-				CD44405816720362008CF1F0 /* DetailViewController.m */,
+				CD44405416720362008CF1F0 /* SearchViewController.h */,
+				CD44405516720362008CF1F0 /* SearchViewController.m */,
+				CD44405716720362008CF1F0 /* PlaceViewController.h */,
+				CD44405816720362008CF1F0 /* PlaceViewController.m */,
 				CD44404016720362008CF1F0 /* Supporting Files */,
 			);
 			path = JaiFaim;
@@ -129,7 +129,7 @@
 			);
 			name = "J'ai Faim !";
 			productName = JaiFaim;
-			productReference = CD44403516720362008CF1F0 /* JaiFaim.app */;
+			productReference = CD44403516720362008CF1F0 /* J'ai Faim !.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,8 +181,8 @@
 			files = (
 				CD44404616720362008CF1F0 /* main.m in Sources */,
 				CD44404A16720362008CF1F0 /* AppDelegate.m in Sources */,
-				CD44405616720362008CF1F0 /* MasterViewController.m in Sources */,
-				CD44405916720362008CF1F0 /* DetailViewController.m in Sources */,
+				CD44405616720362008CF1F0 /* SearchViewController.m in Sources */,
+				CD44405916720362008CF1F0 /* PlaceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
