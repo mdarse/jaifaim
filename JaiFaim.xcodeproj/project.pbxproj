@@ -19,6 +19,7 @@
 		CD44405316720362008CF1F0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD44405116720362008CF1F0 /* MainStoryboard.storyboard */; };
 		CD44405616720362008CF1F0 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44405516720362008CF1F0 /* SearchViewController.m */; };
 		CD44405916720362008CF1F0 /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD44405816720362008CF1F0 /* PlaceViewController.m */; };
+		CD8F82F7167247B300C6C9FC /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F82F6167247B300C6C9FC /* Place.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		CD44405816720362008CF1F0 /* PlaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
 		CD59CF561672337300856AA5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CD59CF571672337300856AA5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD8F82F5167247B300C6C9FC /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		CD8F82F6167247B300C6C9FC /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				CD44405516720362008CF1F0 /* SearchViewController.m */,
 				CD44405716720362008CF1F0 /* PlaceViewController.h */,
 				CD44405816720362008CF1F0 /* PlaceViewController.m */,
+				CD8F82F5167247B300C6C9FC /* Place.h */,
+				CD8F82F6167247B300C6C9FC /* Place.m */,
 				CD44404016720362008CF1F0 /* Supporting Files */,
 			);
 			path = JaiFaim;
@@ -183,6 +188,7 @@
 				CD44404A16720362008CF1F0 /* AppDelegate.m in Sources */,
 				CD44405616720362008CF1F0 /* SearchViewController.m in Sources */,
 				CD44405916720362008CF1F0 /* PlaceViewController.m in Sources */,
+				CD8F82F7167247B300C6C9FC /* Place.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
