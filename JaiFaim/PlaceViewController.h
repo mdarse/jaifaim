@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Place.h"
 
 @interface PlaceViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
-
+@property (strong, nonatomic) Place *placeItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
 @end

@@ -16,10 +16,10 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setPlaceItem:(Place *)newPlaceItem
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+    if (_placeItem != newPlaceItem) {
+        _placeItem = newPlaceItem;
         
         // Update the view.
         [self configureView];
@@ -30,8 +30,9 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+    if (self.placeItem) {
+        self.detailDescriptionLabel.text = self.placeItem.description;
+        self.navigationItem.title = self.placeItem.name;
     }
 }
 
