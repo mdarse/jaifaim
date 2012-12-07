@@ -27,7 +27,6 @@
 		CD44403B16720362008CF1F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD44403D16720362008CF1F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CD44404116720362008CF1F0 /* JaiFaim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JaiFaim-Info.plist"; sourceTree = "<group>"; };
-		CD44404316720362008CF1F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD44404516720362008CF1F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD44404716720362008CF1F0 /* JaiFaim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JaiFaim-Prefix.pch"; sourceTree = "<group>"; };
 		CD44404816720362008CF1F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,11 +34,12 @@
 		CD44404B16720362008CF1F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CD44404D16720362008CF1F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CD44404F16720362008CF1F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CD44405216720362008CF1F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CD44405416720362008CF1F0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		CD44405516720362008CF1F0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		CD44405716720362008CF1F0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		CD44405816720362008CF1F0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CD59CF561672337300856AA5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CD59CF571672337300856AA5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD44403416720362008CF1F0 /* JaiFaim */ = {
+		CD44403416720362008CF1F0 /* J'ai Faim ! */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD44405C16720362008CF1F0 /* Build configuration list for PBXNativeTarget "JaiFaim" */;
+			buildConfigurationList = CD44405C16720362008CF1F0 /* Build configuration list for PBXNativeTarget "J'ai Faim !" */;
 			buildPhases = (
 				CD44403116720362008CF1F0 /* Sources */,
 				CD44403216720362008CF1F0 /* Frameworks */,
@@ -127,7 +127,7 @@
 			);
 			dependencies = (
 			);
-			name = JaiFaim;
+			name = "J'ai Faim !";
 			productName = JaiFaim;
 			productReference = CD44403516720362008CF1F0 /* JaiFaim.app */;
 			productType = "com.apple.product-type.application";
@@ -147,13 +147,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = CD44402A16720362008CF1F0;
 			productRefGroup = CD44403616720362008CF1F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD44403416720362008CF1F0 /* JaiFaim */,
+				CD44403416720362008CF1F0 /* J'ai Faim ! */,
 			);
 		};
 /* End PBXProject section */
@@ -191,7 +192,7 @@
 		CD44404216720362008CF1F0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD44404316720362008CF1F0 /* en */,
+				CD59CF571672337300856AA5 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -199,7 +200,7 @@
 		CD44405116720362008CF1F0 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD44405216720362008CF1F0 /* en */,
+				CD59CF561672337300856AA5 /* fr */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -291,7 +292,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD44405C16720362008CF1F0 /* Build configuration list for PBXNativeTarget "JaiFaim" */ = {
+		CD44405C16720362008CF1F0 /* Build configuration list for PBXNativeTarget "J'ai Faim !" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD44405D16720362008CF1F0 /* Debug */,
