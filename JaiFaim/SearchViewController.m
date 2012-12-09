@@ -28,6 +28,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIImageView *titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Title.png"]];
+    self.navigationItem.titleView = titleView;
+
     _places = [Place places];
     
 }
